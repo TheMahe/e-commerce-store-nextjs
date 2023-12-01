@@ -6,7 +6,7 @@
 :root {
   --base: 24px;
   --font-body: 'Jost', sans-serif;
-  --font-mono: 'Jost', sans-serif;
+  --font-jost: 'Jost', sans-serif;
 
   --gutter-h: 180px;
   --block-padding: 120px;
@@ -52,7 +52,6 @@ body {
 
   display: flex;
   flex-flow: column;
-
 }
 
 .main {
@@ -101,8 +100,6 @@ h6 {
 
 p {
   margin: 0;
-
- 
 }
 
 ul,
@@ -114,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
